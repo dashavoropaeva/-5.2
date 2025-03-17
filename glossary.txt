@@ -1,0 +1,9 @@
+# Glossary in tab-separated format -*- coding: utf-8 -*-
+атоматический перевод	automatic transfer
+Машинный перевод	Machine Translation
+Нейронный машинный перевод	Neural Machine Translation
+Статистический машинный перевод	Statistical Machine Translation
+Языковая модель	Language Model
+Модель перевода	Translation Model
+Мультимодальный перевод	Multimodal Translation
+Самоконтролируемое обучение	Self-Supervised Learning
