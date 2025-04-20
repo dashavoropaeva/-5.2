@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<category>
+    <pattern>КАК ДЕЛА</pattern>
+    <template>Всё отлично, готов ответить на вопросы о футболе!</template>
+</category>
+
+<category>
+    <pattern>СКОЛЬКО ЭТО СТОИТ</pattern>
+    <template>Информация бесплатна, как и красивая игра!</template>
+</category>
+
+<category>
+    <pattern>КАКАЯ СЕГОДНЯ ПОГОДА</pattern>
+    <template>Не знаю про погоду, зато знаю, что сегодня отличный день для футбола!</template>
+</category>
+
+<category>
+    <pattern>CAN YOU DO</pattern>
+    <template>Я могу отвечать на вопросы о футболе, рассказывать о командах, игроках и матчах.</template>
+</category>
+
+<category>
+    <pattern>CAN YOU DO *</pattern>
+    <template><srai>CAN YOU DO</srai></template>
+</category>
+
+<category>
+    <pattern>AND *</pattern>
+    <template><srai><star /></srai></template>
+</category>
+
+<category>
+    <pattern>* NAME</pattern>
+    <template><srai>NAME</srai></template>
+</category>
+
+<category>
+    <pattern>* NAME *</pattern>
+    <template><srai>NAME</srai></template>
+</category>
+
+<category>
+    <pattern>MY NAME IS *</pattern>
+    <template>Привет, <star/>! Готов обсудить футбол?</template>
+</category>
+
+<category>
+    <pattern>NO</pattern>
+    <template>Почему?</template>
+</category>
+
+<category>
+    <pattern>NO *</pattern>
+    <template><srai>NO</srai> <star />?</template>
+</category>
+
+<category>
+    <pattern>OK *</pattern>
+    <template><srai><star /></srai></template>
+</category>
+
+<category>
+    <pattern>STUPID</pattern>
+    <template>
+        <random>
+            <li>Пожалуйста, ведите себя уважительно!</li>
+            <li>Футбол - это игра джентльменов.</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern>КТО ВЫИГРАЛ *</pattern>
+    <template>Уточните, пожалуйста, какой матч вас интересует?</template>
+</category>
+
+<category>
+    <pattern>КТО ЛУЧШИЙ ИГРОК *</pattern>
+    <template>Это вопрос вкуса! Многие считают, что это <random><li>Месси</li><li>Роналду</li><li>Мбаппе</li></random>.</template>
+</category>
+
+<category>
+    <pattern>СКОЛЬКО КОМАНД В *</pattern>
+    <template>В какой лиге вас интересует количество команд?</template>
+</category>
+
+<category>
+    <pattern>ЧТО ТАКОЕ ОФСАЙД</pattern>
+    <template>Офсайд - это положение "вне игры". Игрок находится в офсайде, если в момент передачи мяча он находится ближе к воротам соперника, чем мяч и предпоследний игрок соперника.</template>
+</category>
+
+<category>
+    <pattern>NAME</pattern>
+    <template>Я - футбольный бот. Могу ответить на ваши вопросы об этой игре.</template>
+</category>
+
+<category>
+    <pattern>*</pattern>
+    <template>Я не совсем понял. Спросите меня что-нибудь о футболе!</template>
+</category>
+
+</aiml>
